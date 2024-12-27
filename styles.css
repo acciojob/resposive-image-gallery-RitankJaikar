@@ -11,7 +11,7 @@ body {
 }
 
 /* Gallery container */
-.gallery {
+.cards {
   display: flex;
   flex-wrap: wrap;
   gap: 10px; /* Spacing between items */
@@ -19,7 +19,7 @@ body {
 }
 
 /* Images styling */
-.gallery img {
+.cards img {
   max-width: 25vw; /* Responsive size: 25% of viewport width */
   margin: 10px;
   border: 3px solid #000;
@@ -28,6 +28,6 @@ body {
 }
 
 /* Hover effect for images */
-.gallery img:hover {
+.cards img:hover {
   transform: scale(1.05); /* Slight zoom on hover */
 }
