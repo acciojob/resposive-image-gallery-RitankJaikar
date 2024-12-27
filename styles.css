@@ -10,25 +10,17 @@ body {
   background-color: #f4f4f4;
 }
 
-/* Gallery container */
 .cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px; /* Spacing between items */
+  gap: 10px;
   justify-content: center;
 }
 
-/* Images styling */
 .cards img {
-  max-width: 25vw; /* Responsive size: 25% of viewport width */
+  max-width: 25vw;
   margin: 10px;
   border: 3px solid #000;
   box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease; /* Add some hover effect */
-  max-width: 25vw;
-}
-
-/* Hover effect for images */
-.cards img:hover {
-  transform: scale(1.05); /* Slight zoom on hover */
+  transition: transform 0.3s ease;
 }
