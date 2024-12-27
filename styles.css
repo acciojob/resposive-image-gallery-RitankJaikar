@@ -1,1 +1,33 @@
 /*  your css code here. If applicable */
+/* Resetting default styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f4f4f4;
+}
+
+/* Gallery container */
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px; /* Spacing between items */
+  justify-content: center;
+}
+
+/* Images styling */
+.gallery img {
+  max-width: 25vw; /* Responsive size: 25% of viewport width */
+  margin: 10px;
+  border: 3px solid #000;
+  box-shadow: 3px 3px 8px 0px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease; /* Add some hover effect */
+}
+
+/* Hover effect for images */
+.gallery img:hover {
+  transform: scale(1.05); /* Slight zoom on hover */
+}
