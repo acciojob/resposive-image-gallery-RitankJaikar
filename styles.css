@@ -17,7 +17,7 @@ body {
   justify-content: center;
 }
 
-.cards > img {
+img {
   width: 25vw;
   max-width: 25vw;
   margin: 10px;
